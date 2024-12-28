@@ -1,0 +1,99 @@
+.header 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    padding: 0 28px;
+    border-bottom: 1px solid #e8ebed;
+}
+.header .header_logo_text
+{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.header .header_logo_text .header_logo
+{
+    width: 38px;
+    height: 38px;
+    border-radius: 8px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.header_logo_text a
+{
+    display: flex;
+}
+.header .header_logo_text .header_text
+{
+    font-size: 14px;
+    margin: 0 0 0 16px;
+    color: black;
+}
+.header_search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+.header_search .header_flex
+{
+    padding: 0 16px 0 8px;
+    border: 2px solid rgb(232,232,232);
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    max-width: 100%;
+    display: flex;
+    transition: border-color .2s ease-in-out;
+}
+.header_search_icon 
+{
+    width: 30px;
+    height: 32px;
+    opacity: .7;
+    position: relative;
+}
+.header_search_icon svg
+{
+    position: absolute;
+    top: 10px;
+    left:5px;
+}
+.header_input
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    caret-color: #444;
+    flex:1;
+    padding: 0 4px;
+}
+.action_btn
+{
+    display: flex;
+    align-items: center;
+}
+.action_btn .btn_sign_in
+{
+    margin: 0 30px 0 0;
+    background: transparent;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+}
+.action_btn .btn_sign_up
+{
+    padding: 9px 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background: linear-gradient(to right bottom,#ff8f26,#ff5117);
+}

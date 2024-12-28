@@ -1,0 +1,142 @@
+.container
+{
+    
+    margin-top: var(--header-height);
+}
+.main   
+{
+    min-height: 100vh;
+    display: flex;
+}
+.slider_bar
+{
+    flex-shrink: 0;
+}
+.slider_bar_select
+{
+    position: sticky;
+    top: 80px;
+    width: var(--layout-sidebar-width);
+    z-index: 8;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 8px;
+}
+
+.slider_bar_select ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+.select_item
+{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+    color: #1a1a1a;
+    border-radius: 16px;
+    background-color: #e8ebed;
+
+}
+.select_item span
+{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+    color: black;
+}
+.main_item
+{
+    width: min(100% - var(--layout-sidebar-width), 2400px);
+    margin: 0 auto;
+    padding: 0 32px 0 10px;
+}
+.container_main 
+{
+    --grid--x:24px;
+    --grid--y:0;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: calc(var(--grid--x)*0.5);
+    padding-right: calc(var(--grid--x)*0.5);
+}
+.main_slideshow
+{
+    margin: 18px 0 0 0;
+    padding: 0 0 12px 0 ;
+}
+.main_slideshow_item
+
+{
+    --slideshow-height:300px;
+    min-height: var(--slideshow-height);
+}
+.initialized
+{
+    position: relative;
+    display: block;
+}
+.btn_previous
+{
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px #00000029;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.item_learn
+{
+    padding: 0 44px 74px;
+    overflow: hidden;
+}
+.item_learn_pro
+{
+    margin-top: 50px;
+}
+.learn_pro_text {
+    display: flex;
+    align-items: center;
+}
+.learn_pro_text h2
+{
+    font-weight: 1000;
+}
+.learn_pro_text span
+{
+    padding: 3px 6px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-color: #1473e6;
+    margin: 0 0 0 8px;
+}
+.learn_pro_body
+{
+    min-height: 200px;
+}
+.item_column
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col
+{
+    padding: 0 12px;
+    margin-top: 36px;
+    flex: 0 0 auto;
+    width: 25%;
+}
