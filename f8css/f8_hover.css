@@ -1,0 +1,10 @@
+.col:hover .col_item {
+    transform: translateY(-5px); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); 
+}
+.list_about a:hover,
+.contact_list a:hover
+{
+    text-decoration: underline;
+    color: white;
+}

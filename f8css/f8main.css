@@ -2,13 +2,13 @@
 @import url('f8_container.css');
 @import url('f8_footer.css');
 @import url('f8_resposive.css');
+@import url('f8_hover.css');
 *
 
 {
     padding: 0;
     margin: 0;
-    box-sizing: border-box
-    ;
+    box-sizing: border-box;
 }
 html,body
 {
@@ -29,7 +29,7 @@ button
     padding: 0;
     color: inherit;
 }
-strong,b
+strong,b ,h1,h2,h3,h4,h5,h6
 {
     font-weight: 600;
 }
