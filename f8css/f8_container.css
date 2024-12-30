@@ -182,7 +182,6 @@
 }
 .select_slide
 {
-    position: absolute;
     bottom: -25px;
     left: 40px;
     display: flex;
@@ -241,6 +240,18 @@
 .learn_pro_text,.learn_free_text {
     display: flex;
     align-items: baseline;
+}
+.icon_right
+{
+    margin-top: 2px;
+    width: 20px;
+    display: inline-block;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 11px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #f3f3f3;
 }
 .learn_text
 {
