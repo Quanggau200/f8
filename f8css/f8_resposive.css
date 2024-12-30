@@ -7,6 +7,10 @@
     {
         --slideshow-height: 270px;
     }
+    .icon_right
+    {
+        display: none;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -73,13 +77,17 @@
         .btnwrap,
         .item_hot_blog .hot_blog_item .infor_mentor,  .item_hot_blog .hot_blog_item .user_profile, .item_hot_blog .hot_blog_item span,
         .learn_pro_body .content .infor_1:nth-child(1),.item_learn_free .content .infor_pro:nth-child(1),
-        .item_hot_video .content .infor_hot_video:nth-child(2)
+        .item_hot_video .content .infor_hot_video:nth-child(2),.learn_heading_roadmap
         {
             display: none;
         }
         .learn_pro_body .content .infor_1:nth-child(2),.item_learn_free .content .infor_pro:nth-child(2)
         {
             display: flex !important;
+        }
+        .icon_right 
+        {
+            display: block;
         }
     .slider_bar_select 
     {
@@ -101,10 +109,16 @@
     }
     .select_item
     {
+        
         opacity: 1;
         background: transparent;
         width: auto;
         height: 60px;
+    }
+    .select_slide
+    {
+        left: 0;
+        flex-wrap: wrap;    
     }
     .header
     {
@@ -114,6 +128,14 @@
     .header_search .header_flex 
     {
         width: 100%;
+    }
+    .heading_item_left a
+    {
+        font-size: 24px;
+    }
+    .item_left
+    {
+        padding: 0 24px;
     }
     .main_item
     {
@@ -163,3 +185,11 @@
             text-align: center;
         }
 }
+@media screen and(max-width:40px) {
+    .select_slide
+    {
+        bottom: -32px;
+    }
+    
+}
+
