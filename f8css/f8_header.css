@@ -9,6 +9,8 @@
     height: var(--header-height);
     padding: 0 28px;
     border-bottom: 1px solid #e8ebed;
+    z-index: 100;
+    background:white;
 }
 .header .header_logo_text
 {

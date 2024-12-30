@@ -1,0 +1,131 @@
+@media (max-width: 1799.98px) {
+    .col {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+}
+@media (max-width: 1199.98px) {
+    .col {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    .content {
+        padding: 16px;
+    
+}
+    .col_footer {
+    flex: 0 0 auto;
+    width: 100%;
+    }
+    .col-2 {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+        margin-top:36px;
+        padding: 0 12px;
+
+    }
+    .col_end
+    {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-top:36px;
+        padding: 0 12px;
+    }
+    .footer
+    {
+        padding: 32px 12px 40px;
+    }
+    /* .infor_1
+    {
+        
+    } */
+    
+}
+@media screen and (max-width:900px) {
+    .header .header_logo_text .header_text  {
+        display: none;
+    }
+    .col {
+        flex: 0 0 auto;
+        width:50%;
+    }
+}
+@media screen and (max-width:500px) 
+{
+    .action_btn .btn_sign_in,.btnwrap
+    {
+        display: none;
+    }
+    .slider_bar_select 
+    {
+        position: fixed;
+        top: unset;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 0;
+        border-top: 1px solid #e8ebed;
+        background: #fff;
+    }
+    .slider_bar_select ul
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .select_item
+    {
+        opacity: 1;
+        background: transparent;
+        width: auto;
+        height: 60px;
+    }
+    .header
+    {
+        padding:0 16px;
+        gap: 16px;
+    }
+    .header_search .header_flex 
+    {
+        width: 100%;
+    }
+    .main_item
+    {
+        width: 100%;
+        padding: 0 4px;
+    }
+    .item_learn
+    {
+        padding: 0;
+    }
+    .footer
+    {
+        padding-top: 30px;
+        padding-bottom: 200px;
+    }
+    .col_footer {
+        flex: 0 0 auto;
+        width: 100%;
+        }
+        .col-2 {
+            flex: 0 0 auto;
+            width: 100%;
+            margin-top:36px;
+            padding: 0 12px;
+    
+        }
+        .col_end
+        {
+            flex: 0 0 auto;
+            width: 100%;
+            margin-top:36px;
+            padding: 0 12px;
+        }
+        .footer_bottom 
+        {
+            flex-direction: column-reverse;
+         gap: 16px;
+            text-align: center;
+        }
+}

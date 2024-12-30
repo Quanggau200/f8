@@ -1,0 +1,125 @@
+.footer {
+    overflow: hidden;
+    padding: 68px 180px 40px;
+    color: #a9b3bb;
+    background-color: #181821;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.row_item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.container_footer {
+    padding: 0 12px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col_footer {
+    flex: 0 0 auto;
+    width: 25%;
+    padding: 0 12px;
+}
+.col_end
+{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.heading_top {
+    display: flex;
+    align-items: center;
+}
+.heading_top_logo{
+
+
+width: 38px;
+height: 38px;
+margin-right: 10px;
+border-radius: 8px;
+}
+.headding_top_text {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact_list {
+    position: relative;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #a9b3bb;
+}
+.contact_list a {
+    color: #a9b3bb;
+}
+.dcma_img
+{
+    margin-top: 20px;
+}
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+.heading_about,.heading_about a {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.list_about {
+    margin-top: 20px;
+    padding-left: 0;
+}
+.list_about li {
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+.list_about a {
+    color: #a9b3bb;
+    cursor: pointer;
+    position: relative;
+    transition: ease .2s;
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 0 12px;
+}
+.footer_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.footer_copyright {
+    line-height: 1.5;
+    font-size: 14px;
+}
+.social_list {
+    display: flex;
+    align-items: center;
+}
+.social_item_youtube{
+    color: #eb2c3b;
+    padding: 12px;
+    font-size: 32px;
+}
+.social_item  {
+    padding: 12px;
+    font-size: 32px;
+}
+.social_item_facebook {
+    color: #4867aa;
+}
+.social_item_tiktok
+{
+    color: #ccc;
+}

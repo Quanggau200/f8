@@ -101,20 +101,25 @@
     padding: 0 44px 74px;
     overflow: hidden;
 }
-.item_learn_pro
+.item_learn_pro,.item_learn_free,.item_hot_blog
 {
     margin-top: 50px;
 }
-.learn_pro_text {
+.learn_pro_text,.learn_free_text {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
-.learn_pro_text h2
+.learn_text
 {
     font-weight: 1000;
+    margin: 16px auto 28px 0;
+    color: #242424;
 }
-.learn_pro_text span
-{
+.learn_pro_text .learn_pro_icon
+{   
+    position: relative;
+    top: -6px;
+    right: -8px;
     padding: 3px 6px;
     font-weight: 500;
     color: #fff;
@@ -122,7 +127,7 @@
     text-transform: uppercase;
     border-radius: 4px;
     background-color: #1473e6;
-    margin: 0 0 0 8px;
+    
 }
 .learn_pro_body
 {
@@ -132,13 +137,14 @@
 {
     display: flex;
     flex-wrap: wrap;
+    margin: -36px -12px 0;
 }
 .col
 {
     padding: 0 12px;
     margin-top: 36px;
     flex: 0 0 auto;
-    width: 25%;
+    width: 33.3333333333333%;
 }
 .col_item
 {
@@ -218,4 +224,87 @@ font-weight: 600;
     gap: 6px;
     color: #666;
     font-size: 14px;
+}
+.learn_people
+{
+    color: #82919b;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.learn_heading_name
+{
+    color: #000;  
+}
+.learn_heading_roadmap
+{
+    padding: 8px 0 8px 8px;
+    margin-right: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--primary-color);
+    background-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.price_main
+{
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.hot_blog_item
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: auto;
+    line-height: 1.4;
+    font-size: 14px;
+    color: #757575;
+}
+.infor_menter .avatar_mentor
+
+{
+    width: 19px;
+    height: 19px;
+}
+.user_profile
+{
+    display: flex;
+    align-items: center;
+}
+.user_name
+{
+    color: #292929;
+    font-weight: 600; 
+    
+}
+.btnwrap
+{
+    position: fixed;
+    left: 22px;
+    bottom: 60px;
+}
+.btn_notice
+{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #404040;
+    background-color: #f0f0f0cc;
+    border-radius: 50%;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.btn_icon
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

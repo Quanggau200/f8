@@ -1,5 +1,7 @@
 @import url('f8_header.css');
 @import url('f8_container.css');
+@import url('f8_footer.css');
+@import url('f8_resposive.css');
 *
 
 {
@@ -27,6 +29,10 @@ button
     padding: 0;
     color: inherit;
 }
+strong,b
+{
+    font-weight: 600;
+}
 ul
 {
     list-style-type: none;
@@ -39,6 +45,18 @@ button, input {
     height: 1em;
     fill: currentColor;
 }
+.svg-inline--fa {
+    display: inline-block;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+    fill: red;
+}
+._icon_hoymy_1 {
+    color: #1b74e4;
+    margin-left: 4px;
+}
+
 :root
 {
     --toastify-color-light: #fff;
