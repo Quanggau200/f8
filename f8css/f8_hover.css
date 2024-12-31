@@ -8,3 +8,15 @@
     text-decoration: underline;
     color: white;
 }
+.slider_bar_select ul li:hover a{
+    background-color: #e8ebed;
+}
+.learn_heading_roadmap:hover
+{
+    text-decoration: underline;
+
+}
+.learn_heading_roadmap:hover svg
+{
+    transform: translateX(2px);
+}

@@ -32,6 +32,7 @@
 }
 .header .header_logo_text .header_text
 {
+    font-weight: 700;
     font-size: 14px;
     margin: 0 0 0 16px;
     color: black;
@@ -93,6 +94,7 @@
 .action_btn .btn_sign_up
 {
     padding: 9px 20px;
+    cursor: pointer;
     border-radius: 40px;
     color: white;
     font-weight: 600;

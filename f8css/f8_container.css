@@ -40,7 +40,6 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
-    
 }
 .select_item
 {
@@ -54,7 +53,7 @@
     background-color: white;
     color: #1a1a1a;
     border-radius: 16px;
-    background-color: #e8ebed;
+    background-color: white;
 
 }
 .select_item span
@@ -403,6 +402,14 @@ font-weight: 600;
     -webkit-user-select: none;
     user-select: none;
     cursor: pointer;
+
+}
+.learn_heading_roadmap svg {
+    font-size: 12px;
+    margin-left: 4px;
+    position: relative;
+    top: -1px;
+    transition: ease .3s;
 }
 .price_main
 {
