@@ -1,0 +1,21 @@
+.slider-container {
+    width: 300px; /* Độ dài cố định của vùng hiển thị */
+    overflow: hidden; /* Ẩn các phần tràn ra ngoài */
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.slider-track {
+    display: flex; /* Sắp xếp các item theo hàng ngang */
+    transition: transform 0.5s ease; /* Hiệu ứng trượt mượt */
+    transform: translateX(0); /* Vị trí ban đầu */
+}
+
+.slider-item {
+    width: 300px; /* Kích thước mỗi item */
+    flex-shrink: 0; /* Ngăn item bị co lại */
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+}
