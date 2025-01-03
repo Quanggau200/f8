@@ -1,16 +1,21 @@
 
-        // const listiem = document.querySelector('.main_slideshow_item');
-        // const itemsize = document.getElementsByClassName('initialized');
-        
-        // console.log(itemsize);
-
+        // const listiem = document.querySelector('.test');
+        // const itemsize=document.getElementsByClassName('item')
+        // console.log(itemsize)
         // let currunt = 0;
-        // setInterval(() => {
+        // function slide() {
         //     currunt++;
-        //     if (itemsize.length > 0) {
-        //         let width = itemsize[0].offsetWidth;
-        //         console.log(width)
-        //         listiem.style.transform = `translateX(${width * -3 * currunt}px)`;
+        //     if (currunt >= itemsize.length) {
+        //         currunt = 0;
         //     }
-        // }, 4000);
-
+        
+        //     let width = itemsize[0].getBoundingClientRect().width;
+        //     console.log(width)
+        //     requestAnimationFrame(() => {
+        //         listiem.style.transform = `translateX(${width * -1 * currunt}px)`;
+        //     });
+            
+        // }
+        
+        // setInterval(slide, 2000);
+        

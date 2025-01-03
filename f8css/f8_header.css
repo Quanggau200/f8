@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     white-space: nowrap;
+    
 }
 .header .header_logo_text .header_logo
 {
@@ -36,7 +37,9 @@
     font-size: 14px;
     margin: 0 0 0 16px;
     color: black;
+  
 }
+
 .header_search
 {
     display: flex;
