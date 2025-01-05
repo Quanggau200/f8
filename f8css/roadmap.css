@@ -1,91 +1,4 @@
 
-::-webkit-scrollbar {
-    width: 8px;
-    height: 12px; 
-}
-
-
-::-webkit-scrollbar-thumb {
-    background-color: #D9D9D9; 
-    border-radius: 6px; 
-}
-a
-{
-    text-decoration: none;
-}
-.container
-{
-    
-    margin-top: var(--header-height);
-}
-.main   
-{
-    min-height: 100vh;
-    display: flex;
-}
-.slider_bar
-{
-    flex-shrink: 0;
-    background: white;
-    position: relative;
-    z-index: 50;
-}
-.slider_bar_select
-{
-    position: sticky;
-    top: 80px;
-    width: var(--layout-sidebar-width);
-    z-index: 8;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 8px;
-    background: white;
-}
-
-.slider_bar_select ul
-{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-.select_item
-{
-    width: 72px;
-    height: 72px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    background-color: white;
-    color: #1a1a1a;
-    border-radius: 16px;
-    background-color: white;
-
-}
-.select_item span
-{
-    font-size: 11px;
-    font-weight: 600;
-    margin-top: 8px;
-    color: black;
-}
-.main_item
-{
-    width: min(100% - var(--layout-sidebar-width), 2400px);
-    margin: 0 auto;
-    padding: 0 32px 0 10px;
-}
-.container_main 
-{
-    --grid--x:24px;
-    --grid--y:0;
-    width: 100%;
-    margin: 0 auto;
-    padding-left: calc(var(--grid--x)*0.5);
-    padding-right: calc(var(--grid--x)*0.5);
-}
 .container_fluid
 {
     padding: 8px 44px 0;
@@ -112,6 +25,7 @@ a
 {
     padding: 16px 0;
     font-size: 14px;
+    line-height: 1.8;
 }
 .container_select 
 {
@@ -133,6 +47,10 @@ a
 {
     display: flex;
     margin: 0 0 20px 0 ;
+}
+.intro_text p
+{
+    font-size: 14px;
 }
 .intro_text h1 a
 {
@@ -191,12 +109,14 @@ padding: 0 0 14px 0 !important ;
 {
     color: white;
     font-weight: 700;
+    font-size: 16px;
 }
 .container_wrapper
 {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .infor
 {
@@ -205,6 +125,17 @@ padding: 0 0 14px 0 !important ;
     align-items: flex-start;
     gap: 20px;
     width: 400px;
+}
+.infor h2
+{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.6;
+}
+.infor p
+{
+    font-size: 14px;
+    line-height: 1.6;
 }
 .btn_join
 {
@@ -222,4 +153,7 @@ padding: 0 0 14px 0 !important ;
     width: 420px;
     height: 420px;
     max-width: 100%;
+    position: relative;
+    right:-44px ;
+    object-fit: contain;
 }

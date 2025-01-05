@@ -4,6 +4,7 @@
 @import url('f8_resposive.css');
 @import url('f8_hover.css');
 @import url('roadmap.css');
+@import url('new.css');
 *
 
 {
@@ -57,6 +58,11 @@ button, input {
     color: #1b74e4;
     margin-left: 4px;
 }
+.fa-bookmark,.fa-ellipsis
+{
+    color:#757575 ;
+}
+
 
 :root
 {
