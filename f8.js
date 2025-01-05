@@ -1,12 +1,29 @@
 
         // add sự kiện bật tắt
-        document.querySelector('.btn_sign_up').addEventListener('click', () => {});
-            
+        document.querySelector('.btn_sign_up').addEventListener('click', () => { });
+
+        // thêm sự kiện ko bị cuộn trang
+        const open = document.getElementById('openlogin')
+        open.addEventListener('change', () => {
+        if (open.checked) {
+                document.body.classList.add('modal-open')
+        }
+        else {
+                document.body.classList.remove('modal-open')
+        }
+        });
+
+        const el = document.querySelector('.header_flex')
+        document.addEventListener('click', (event) => {
+        if (el.contains(event.target)) {
+                el.style.border = "2px solid black";
+        } else {
+
+                el.style.border = "2px solid rgb(232, 232, 232)";
+        }
+        });
 
 
-
-        
-        // const listiem = document.querySelector('.test');
         // const itemsize=document.getElementsByClassName('item')
         // console.log(itemsize)
         // let currunt = 0;

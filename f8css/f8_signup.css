@@ -1,4 +1,4 @@
-.signup
+.signup,.signin
 {
     position: fixed;
     top: 0;
@@ -24,7 +24,7 @@
   
    
 }
-.form_signup
+.form_signup,.form_signin
 {
     width: 540px;
     position: relative;

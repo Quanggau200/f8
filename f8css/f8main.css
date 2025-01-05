@@ -68,6 +68,10 @@ button, input {
     background-color: #e8ebed;
     
 }
+body.modal-open
+{
+overflow:hidden
+}
 
 
 

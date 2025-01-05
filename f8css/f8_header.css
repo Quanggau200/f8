@@ -50,13 +50,14 @@
 .header_search .header_flex
 {
     padding: 0 16px 0 8px;
-    border: 2px solid rgb(232,232,232);
+ 
     width: 420px;
     height: 40px;
     border-radius: 20px;
     max-width: 100%;
     display: flex;
-    transition: border-color .2s ease-in-out;
+    border: 2px solid rgb(232,232,232);
+    transition: .2s ease-in-out;
 }
 .header_search_icon 
 {
@@ -80,7 +81,9 @@
     caret-color: #444;
     flex:1;
     padding: 0 4px;
+   
 }
+
 .action_btn
 {
     display: flex;

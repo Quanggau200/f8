@@ -11,43 +11,82 @@
 
 <body>
 
-    <div class="header">
-        <h1 class="header_logo_text">
-            <a href="">
-                <img src="assets/images/f8-icon-lV2rGpF0.png" alt="" class="header_logo">
-            </a>
-            <a href="" class="header_text">
-                Học Lập Trình Để Đi Làm
+      <div class="header">
+            <h1 class="header_logo_text">
+                <a href="">
+                    <img src="assets/images/f8-icon-lV2rGpF0.png" alt="" class="header_logo">
+                </a>
+                <a href="" class="header_text">
+                    Học Lập Trình Để Đi Làm
+                </a>
+            </h1>
+            <div class="header_search">
+                <div>
+                    <div class="header_flex">
+                        <div class="header_search_icon">
+                        <svg id='Search-Icon' xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 36 36'><g id='SMOCK'><rect id='Canvas' width='36' height='36' fill='rgba(68,68,68,0)'/></g><g id='ICONS' transform='translate(1.103 0.969)'><path id='Path_127042' data-name='Path 127042' d='M35.4,32.5l-8.252-8.3A14.488,14.488,0,0,0,5.451,5.107,14.478,14.478,0,0,0,24.2,27.075l8.263,8.314A2.061,2.061,0,0,0,35.4,32.5ZM5.344,15.479A10.327,10.327,0,1,1,15.671,25.764,10.306,10.306,0,0,1,5.344,15.479Z' transform='translate(-1.103 -0.969)' fill='#444'/></g></svg>
 
-            </a>
-        </h1>
-        <div class="header_search">
-            <div>
-                <div class="header_flex">
-                    <div class="header_search_icon">
-                        <svg id='Search-Icon' xmlns='http://www.w3.org/2000/svg' width='18' height='18'
-                            viewBox='0 0 36 36'>
-                            <g id='SMOCK'>
-                                <rect id='Canvas' width='36' height='36' fill='rgba(68,68,68,0)' />
-                            </g>
-                            <g id='ICONS' transform='translate(1.103 0.969)'>
-                                <path id='Path_127042' data-name='Path 127042'
-                                    d='M35.4,32.5l-8.252-8.3A14.488,14.488,0,0,0,5.451,5.107,14.478,14.478,0,0,0,24.2,27.075l8.263,8.314A2.061,2.061,0,0,0,35.4,32.5ZM5.344,15.479A10.327,10.327,0,1,1,15.671,25.764,10.306,10.306,0,0,1,5.344,15.479Z'
-                                    transform='translate(-1.103 -0.969)' fill='#444' />
-                            </g>
-                        </svg>
-
+                        </div>
+                        <input type="text" class="header_input" placeholder="Tìm kiếm khóa học, bài viết, video, ...">
                     </div>
-                    <input type="text" class="header_input" placeholder="Tìm kiếm khóa học, bài viết, video, ...">
                 </div>
             </div>
-        </div>
-        <div class="action_btn">
-            <button class="btn_sign_in">Đăng ký</button>
-            <button class="btn_sign_up">Đăng nhập</button>
-        </div>
+            <div class="action_btn">
+                <button class="btn_sign_in">Đăng ký</button>                
+                <input type="checkbox" hidden name="" id="openregister" >
+                <label for="openregister" >
+                    <span class="btn_sign_up">Đăng nhập</span>
+                </label>     
+                <label for="openregister" class="signup">
+                    <div class="overlay"></div>
+                    <div class="form_signup">
+                        <label for="openregister" class="btn_close">
+                            <span>x</span>
+                        </label>
+                     
+                        <div class="form_body">
+                            <div class="form_header">
+                                <a href="" class="logo_f8">
+                                    <img src="https://accounts.fullstack.edu.vn/assets/logo-lV2rGpF0.png" alt="">
+                                </a>
+                                <h1>Đăng nhập vào F8</h1>
+                                <p>Mỗi người nên sử dụng riêng một tài khoản, tài khoản nhiều người
+                                    sử dụng chung sẽ bị khóa.</p>
+                            </div>
+                            <div class="form_body">
+                                <div class="form_content">
+                                    <button class="google ">
+                                        <img src="data:image/svg+xml,%3csvg%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20transform=''%3e%3cg%20fill-rule='evenodd'%3e%3cpath%20d='m17.64%209.2a10.341%2010.341%200%200%200%20-.164-1.841h-8.476v3.481h4.844a4.14%204.14%200%200%201%20-1.8%202.716v2.264h2.909a8.777%208.777%200%200%200%202.687-6.62z'%20fill='%234285f4'/%3e%3cpath%20d='m9%2018a8.592%208.592%200%200%200%205.956-2.18l-2.909-2.258a5.43%205.43%200%200%201%20-8.083-2.852h-3.007v2.332a9%209%200%200%200%208.043%204.958z'%20fill='%2334a853'/%3e%3cpath%20d='m3.964%2010.71a5.321%205.321%200%200%201%200-3.42v-2.332h-3.007a9.011%209.011%200%200%200%200%208.084z'%20fill='%23fbbc05'/%3e%3cpath%20d='m9%203.58a4.862%204.862%200%200%201%203.44%201.346l2.581-2.581a8.649%208.649%200%200%200%20-6.021-2.345%209%209%200%200%200%20-8.043%204.958l3.007%202.332a5.364%205.364%200%200%201%205.036-3.71z'%20fill='%23ea4335'/%3e%3c/g%3e%3cpath%20d='m0%200h18v18h-18z'%20fill='none'/%3e%3c/g%3e%3c/svg%3e" alt="">
+                                        <span>Đăng nhập với Google</span>
+                                    </button>
+                                    <button class="facebook">
+                                        <img src="data:image/svg+xml,%3csvg%20width='18'%20height='18'%20viewBox='0%200%2018%2018'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m17.007%200h-16.014a.993.993%200%200%200%20-.993.993v16.014a.993.993%200%200%200%20.993.993h8.628v-6.961h-2.343v-2.725h2.343v-2a3.274%203.274%200%200%201%203.494-3.591%2019.925%2019.925%200%200%201%202.092.106v2.43h-1.428c-1.13%200-1.35.534-1.35%201.322v1.73h2.7l-.351%202.725h-2.364v6.964h4.593a.993.993%200%200%200%20.993-.993v-16.014a.993.993%200%200%200%20-.993-.993z'%20fill='%234267b2'%20/%3e%3cpath%20d='m28.586%2024.041v-6.961h2.349l.351-2.725h-2.7v-1.734c0-.788.22-1.322%201.35-1.322h1.443v-2.434a19.924%2019.924%200%200%200%20-2.095-.106%203.27%203.27%200%200%200%20-3.491%203.591v2h-2.343v2.73h2.343v6.961z'%20fill='%23fff'%20transform='translate(-16.172%20-6.041)'%20/%3e%3c/svg%3e" alt="">
+                                        <span>Đăng nhập với Facebook</span>
+                                    </button>
+                                    <button class="github">
+                                        <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%200C4.476%200%200%204.477%200%2010c0%204.418%202.865%208.166%206.84%209.49.5.09.68-.218.68-.483%200-.237-.007-.866-.012-1.7-2.782.603-3.37-1.34-3.37-1.34-.454-1.157-1.11-1.464-1.11-1.464-.907-.62.07-.608.07-.608%201.003.07%201.53%201.03%201.53%201.03.893%201.53%202.342%201.087%202.912.83.09-.645.35-1.085.634-1.335-2.22-.253-4.555-1.11-4.555-4.943%200-1.09.39-1.984%201.03-2.683-.105-.253-.448-1.27.096-2.647%200%200%20.84-.268%202.75%201.026A9.555%209.555%200%200110%204.836a9.59%209.59%200%20012.504.337c1.91-1.294%202.747-1.026%202.747-1.026.548%201.377.204%202.394.1%202.647.64.7%201.03%201.592%201.03%202.683%200%203.842-2.34%204.687-4.566%204.935.36.308.678.92.678%201.852%200%201.336-.01%202.415-.01%202.743%200%20.267.18.578.687.48A10%2010%200%200020%2010c0-5.522-4.478-10-10-10'%20fill='%23191717'%20fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e" alt="">
+                                        <span>Đăng nhập với Github</span>
+                                    </button>
+                                    <a href="" class="login_email">
+                                        <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M10%2011c-2.67%200-8%201.34-8%204v3h16v-3c0-2.66-5.33-4-8-4m0-9C7.79%202%206%203.79%206%206s1.79%204%204%204%204-1.79%204-4-1.79-4-4-4m0%2010.9c2.97%200%206.1%201.46%206.1%202.1v1.1H3.9V15c0-.64%203.13-2.1%206.1-2.1m0-9a2.1%202.1%200%20110%204.2%202.1%202.1%200%20010-4.2'%20fill-opacity='.54'%20fill-rule='evenodd'%3e%3c/path%3e%3c/svg%3e" alt="">
+                                        <span>Sử dụng email / số điện thoại</span>
+                                    </a>
+                                </div>
+                                <p class="register">Bạn chưa có tài khoản?
+                                    <a href="">Đăng ký</a>
+                                </p>
+                                <a href="forgetpassworld.html"class="forget_pass">Quên mật khẩu?</a>
+                                <p class="terms_of_use">Việc bạn tiếp tục sử dụng trang web này đồng nghĩa bạn đồng ý với
+                                    <a href="" target="_blank">điều khoản sử dụng</a>
+                                    của chúng tôi
+                                </p>
+                            </div>
 
-    </div>
+                        </div>
+                    </div>
+                </div>
+                </label>
+   </div>
     <!-- main  -->
     <div class="container">
         <div class="main">
@@ -147,7 +186,7 @@
                                                            <label for="openmenu">
                                                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis" class="svg-inline--fa fa-ellipsis " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"></path></svg>
                                                            </label>
-                                                            <div class="toggle">
+                                                            <!-- <div class="toggle">
                                                                 <ul class="toggle_item">
                                                                     <li>
                                                                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"></path></svg>
@@ -170,7 +209,7 @@
                                                                         <span>Báo cáo bài viết</span>
                                                                     </li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                      
                                                     </div>
@@ -272,7 +311,7 @@
                                                 
                                                
                                             </div>
-                                            <div class="left_item" style="margin-top: 16px;">
+                                            <!-- <div class="left_item" style="margin-top: 16px;">
                                                 <div class="item_header">
                                                     <div class="author">
                                                         <a href="">
@@ -782,7 +821,7 @@
                                                 </div>
                                                 
                                                
-                                            </div>
+                                            </div> -->
 
                                         </div>
                                         <div class="warrper_page">
