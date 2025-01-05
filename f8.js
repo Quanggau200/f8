@@ -18,4 +18,23 @@
         // }
         
         // setInterval(slide, 2000);
+        const hoverItems = document.querySelectorAll('.select_item');
+
+        for(let item of hoverItems)
+        {
+                if(item.classList.contains("active"))
+                {
+
+                        item.classList.add('active')
+                        // for(let el of hoverItems)
+                        // {
+                        // el.classList.remove("avtive")
+                        // }
+                        
+                }
+               
+        }
+        document.querySelector('.btn_sign_up').addEventListener("click", () => {
+                window.location.href = "https://forgetpassworld.html";
+        });
         

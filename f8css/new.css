@@ -242,12 +242,12 @@
     -webkit-user-select: none;
     user-select: none;
 }
-.active
+/* .active
 {
     color: var(--white-color);
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-}
+} */
 @keyframes fadein 
 {
     0% {

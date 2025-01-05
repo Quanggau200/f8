@@ -1,10 +1,12 @@
 @import url('f8_header.css');
 @import url('f8_container.css');
 @import url('f8_footer.css');
-@import url('f8_resposive.css');
-@import url('f8_hover.css');
 @import url('roadmap.css');
 @import url('new.css');
+@import url('f8_signup.css');
+@import url('f8_forget.css');
+@import url('f8_resposive.css');
+@import url('f8_hover.css');
 *
 
 {
@@ -62,6 +64,11 @@ button, input {
 {
     color:#757575 ;
 }
+.active {
+    background-color: #e8ebed;
+    
+}
+
 
 
 :root
@@ -118,5 +125,7 @@ button, input {
     --header-height: 66px;
     --layout-sidebar-width: 96px;
     --header-height:66px;
+    --divider-color: #dee3e9;
+    --button-image: linear-gradient(70.06deg, #2cccff -5%, #22dfbf 106%);
     --comment-primary-button-bg: #0093fc;
 }

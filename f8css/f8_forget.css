@@ -1,0 +1,121 @@
+.btn_return
+{
+    position: absolute;
+    background-color: white;
+    top: 7px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 20px;
+    font-size: 16px;
+    color: currentcolor;
+}
+.label_group label
+{
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #292929;
+   
+}
+.label_group
+{
+    margin: 10px 0 10px 8px;
+}
+.user_input
+{
+    position: relative;
+    border-color: var(--invalid-color);
+    background-color: #ff00001a;
+    border-radius: 44px;
+    overflow: hidden;
+    height: 44px;
+    display: flex;
+}
+.user_input input
+{
+    display: block;
+    width: 100%;
+    padding: 12px 42px 12px 20px;
+    border-radius: 44px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+.user_input svg
+{
+    position: absolute;
+    right: 18px;
+    top: 30%;
+    color:#f33a58 ;
+    color: var(--invalid-color);
+    animation: shake .5s ease-in-out;
+}
+.message
+{
+    margin: 8px 0 8px 8px;
+    color: var(--invalid-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.password
+{
+    position: relative;
+    background: #fff;
+    border: 1.5px solid var(--divider-color);
+    border-radius: 44px;
+    overflow: hidden;
+    height: 44px;
+    display: flex;
+    background: #16182329;
+}
+.password input
+{
+    display: block;
+    width: 100%;
+    padding: 12px 42px 12px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+.right_pass
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    min-width: 140px;
+    margin: 1px;
+    border-radius: 44px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    color: #757575;
+    background-color: #ccc;
+}
+.reset_pass
+{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 1px solid var(--divider-color);
+    font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: opacity .25s;
+    color: #fff;
+    background-image: var(--button-image);
+    border-radius: 40px;
+}
+@keyframes shake
+{
+    0% {
+        transform: translate(0);
+    }
+}

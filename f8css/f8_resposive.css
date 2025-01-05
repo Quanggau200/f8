@@ -7,7 +7,7 @@
     {
         --slideshow-height: 270px;
     }
-    .icon_right
+    .icon_right,.thumb
     {
         display: none;
     }
@@ -52,7 +52,7 @@
     }
     .col-2
     {
-        width: 33% !important;
+        width: 33% ;
     }
    
     
@@ -85,12 +85,12 @@
     }
     .two
     {
-        margin: 0!important;
+        margin: 0;
     }
     .infor_img img
     {
-    width: 360px !important;
-    height: 360px !important;
+    width: 360px ;
+    height: 360px ;
     }
     .container_select .select
     {
@@ -98,27 +98,27 @@
     }
     .row
     {
-        display: block !important;
+        display: block ;
     }
     .col-9
     {
-        width: 100% !important;
-        padding: 0 !important;
+        width: 100% ;
+        padding: 0 ;
     }
     .col-2
     {
-        width: 100% !important;
-        padding: 0 !important;
+        width: 100% ;
+        padding: 0 ;
     }
     .col-9_left
     {
-        padding: 0 !important;
+        padding: 0 ;
     }
     .col-2_banner
     {
-        flex-direction: row !important;
-        max-width: 100% !important;
-        gap: 16px !important;
+        flex-direction: row ;
+        max-width: 100% ;
+        gap: 16px ;
     }
 
 }
@@ -129,17 +129,25 @@
         .btnwrap,
         .item_hot_blog .hot_blog_item .infor_mentor,  .item_hot_blog .hot_blog_item .user_profile, .item_hot_blog .hot_blog_item span,
         .learn_pro_body .content .infor_1:nth-child(1),.item_learn_free .content .infor_pro:nth-child(1),
-        .item_hot_video .content .infor_hot_video:nth-child(2),.learn_heading_roadmap,.infor_img,.intro_img
+        .item_hot_video .content .infor_hot_video:nth-child(2),.learn_heading_roadmap,.infor_img,.intro_img,.under
         {
             display: none;
         }
         .learn_pro_body .content .infor_1:nth-child(2),.item_learn_free .content .infor_pro:nth-child(2)
         {
-            display: flex !important;
+            display: flex ;
         }
-        .icon_right 
+        .icon_right,.thumb
         {
             display: block;
+        }
+        .col-2_right_item
+        {
+            margin-bottom:28px ;
+        }
+        .col-2_banner
+        {
+            flex-direction: column;
         }
     .slider_bar_select 
     {
@@ -242,7 +250,7 @@
         }
         .container_fluid
         {
-            padding: 0 !important;
+            padding: 0 ;
         }
         .btn_watch
         {
@@ -250,7 +258,7 @@
         }
         
 }
-@media screen and(max-width:40px) {
+@media screen and(max-width:400px) {
     .select_slide
     {
         bottom: -32px;
