@@ -3,6 +3,10 @@
         flex: 0 0 auto;
         width: 25%;
     }
+    .col-2
+    {
+        width: 16.66666666667%;
+    }
     .main_slideshow_item
     {
         --slideshow-height: 270px;
@@ -49,10 +53,6 @@
     .col-9
     {
         width: 66.6666666667%;
-    }
-    .col-2
-    {
-        width: 33% ;
     }
     .form_signup, .form_signin
     {

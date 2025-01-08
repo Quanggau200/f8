@@ -78,9 +78,9 @@ button, input {
 .active-slide
 {
     display: block !important;
-    animation: slide-right 8s ease-in-out infinite;     
+    animation: slide-right1 8s ease-in-out infinite;     
 }
-@keyframes slide-right {
+@keyframes slide-right1 {
     0% {
       transform: translateX(0);
     }
@@ -108,6 +108,7 @@ overflow:hidden
 :root
 {
     --toastify-color-light: #fff;
+    --cta-hover-color: #FD225C
     --toastify-color-dark: #121212;
     --toastify-color-info: #3498db;
     --toastify-color-success: #07bc0c;

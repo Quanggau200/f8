@@ -103,6 +103,31 @@
     background: linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254)); 
 }
 
+.itemslide
+{
+    --cta-hover-color: #FD225C;
+    background: linear-gradient(to right, rgb(253, 34, 92), rgb(253, 144, 4));
+}
+.itemslide2
+{
+     --cta-hover-color: #6828fa;
+    background: linear-gradient(to right, rgb(104, 40, 250), rgb(255, 186, 164))
+}
+.itemslide3
+{
+    --cta-hover-color: #2877FA;
+    background: linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205));
+}
+.itemslide4
+{
+    --cta-hover-color: #7612ff;
+    background: linear-gradient(to right, rgb(118, 18, 255), rgb(5, 178, 255));
+}
+.itemslide5
+{
+--cta-hover-color: #fe215e;
+ background: linear-gradient(to right, rgb(254, 33, 94), rgb(255, 148, 2));
+}
 .item_left 
 {
     display: flex;
@@ -254,18 +279,11 @@
 
 @keyframes slide-right {
     0% {
-      transform: translateX(0);
+      transform: translateX(50%);
     }
-    30%
-    {
-        transform:translateX(0);
-    }
-    80%
-    {
-        transform:translateX(-500%);
-    }
+    
     100% {
-      transform: translateX(-1000%);
+      transform: translateX(0%);
     }
   }
 
