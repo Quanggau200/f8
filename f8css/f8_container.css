@@ -1,13 +1,3 @@
-::-webkit-scrollbar {
-    width: 8px;
-    height: 12px; 
-}
-
-
-::-webkit-scrollbar-thumb {
-    background-color: #D9D9D9; 
-    border-radius: 6px; 
-}
 
 .container
 {
@@ -257,6 +247,30 @@
     display: flex;
     align-items: baseline;
 }
+.chua
+{
+    animation: slide-right 8s ease-in-out infinite; 
+}
+
+@keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    30%
+    {
+        transform:translateX(0);
+    }
+    80%
+    {
+        transform:translateX(-500%);
+    }
+    100% {
+      transform: translateX(-1000%);
+    }
+  }
+
+
+
 .icon_right
 {
     margin-top: 2px;
@@ -485,22 +499,15 @@ font-weight: 600;
     justify-content: center;
     align-items: center;
 }
+
 #openlogin:checked~.signup {
     display: flex;
 
 }
-#openregister:checked~.signup {
+#openregister:checked~.signin {
     display: flex;
 
 }
 .test111 {
-
     border: 2px solid black;
-   
-  
 }
-
-/* #openregister:checked~.signup
-{
-    display: block;
-} *

@@ -120,6 +120,10 @@
         max-width: 100% ;
         gap: 16px ;
     }
+    .item_left
+    {
+        width: 100%;
+    }
 
 }
 @media screen and (max-width:500px) 

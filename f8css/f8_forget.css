@@ -1,7 +1,18 @@
+.forgetpassword
+{
+    position: relative;
+    background: #E8E8E8;
+    border-radius: 16px;
+    width: 540px;
+    transition: all 0.2s ease-in-out;
+    display: none;
+    min-height: 80vh;
+
+}
 .btn_return
 {
     position: absolute;
-    background-color: white;
+    background-color: #E8E8E8;
     top: 7px;
     left: 10px;
     display: flex;
@@ -39,11 +50,15 @@
     width: 100%;
     padding: 12px 42px 12px 20px;
     border-radius: 44px;
-    border: none;
+    border: 1px solid black;;
     outline: none;
     font-size: 16px;
-    background-color: transparent;
+    background-color:white;
 }
+.send input[type="text"].focus {
+    background-color: white;
+}
+
 .user_input svg
 {
     position: absolute;
@@ -51,7 +66,7 @@
     top: 30%;
     color:#f33a58 ;
     color: var(--invalid-color);
-    animation: shake .5s ease-in-out;
+    display: none;
 }
 .message
 {
@@ -97,6 +112,10 @@
     color: #757575;
     background-color: #ccc;
 }
+.forget_pass
+{
+    cursor: pointer;
+}
 .reset_pass
 {
     display: block;
@@ -113,9 +132,29 @@
     background-image: var(--button-image);
     border-radius: 40px;
 }
+
+.svg_active
+{
+    animation: shake .5s ease-in-out;
+}
+.disabile
+{
+    color: #fff;
+    background: var(--primary-color) linear-gradient(to right bottom, #ff8f26, var(--primary-color));
+}
+
+
 @keyframes shake
 {
     0% {
         transform: translate(0);
+    }
+    50% 
+    {
+        transform: translateX(-50%);
+    }
+    100% 
+    {
+        transform: translateX(50%);
     }
 }

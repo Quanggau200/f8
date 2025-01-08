@@ -3,8 +3,8 @@
 @import url('f8_footer.css');
 @import url('roadmap.css');
 @import url('new.css');
-@import url('f8_signup.css');
 @import url('f8_forget.css');
+@import url('f8_signup.css');
 @import url('f8_resposive.css');
 @import url('f8_hover.css');
 *
@@ -66,8 +66,38 @@ button, input {
 }
 .active {
     background-color: #e8ebed;
-    
 }
+.invaild
+{
+    background: transparent !important;
+}
+.active-disabil
+{
+    display: none;
+}
+.active-slide
+{
+    display: block !important;
+    animation: slide-right 8s ease-in-out infinite;     
+}
+@keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    30%
+    {
+        transform:translateX(0);
+    }
+    80%
+    {
+        transform:translateX(-500%);
+    }
+    100% {
+      transform: translateX(-1000%);
+    }
+  }
+
+
 body.modal-open
 {
 overflow:hidden

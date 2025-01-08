@@ -24,11 +24,16 @@
   
    
 }
+.form_group
+{
+    display: flex;
+    gap: 10px;
+}
 .form_signup,.form_signin
 {
     width: 540px;
     position: relative;
-    background: white;
+    background: #E8E8E8;
     border-radius: 16px;
     padding: 30px;
   
@@ -147,11 +152,12 @@
     padding: 24px 16px 0;
     text-align: center;
 }
-.register a
+.register span
 {
     font-weight: 600;
     color: var(--primary-color);
     text-decoration: underline;
+    cursor: pointer;
 }
 @keyframes inline
 {
