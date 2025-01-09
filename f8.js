@@ -219,21 +219,17 @@ navlink.forEach((link) => {
 
 //active slideshow
 
-const item3=document.querySelectorAll(".chua")
-let currentIndex = 0;
-function activateSlide() {
+// const item3=document.querySelectorAll(".chua")
+// let currentIndex = 0;
+// function activateSlide() {
   
-  item3.forEach(item => {
-      item.classList.remove('active-slide');
-  });
+//   item3.forEach(item => {
+//       item.classList.remove('active-slide');
+//   });
+//   item3[currentIndex].classList.add('active-slide');
+//   currentIndex = (currentIndex + 1) % item3.length;
+// }
 
-  
-  item3[currentIndex].classList.add('active-slide');
-
- 
-  currentIndex = (currentIndex + 1) % item3.length;
-}
-
-setInterval(
-  activateSlide,4000
-)
+// setInterval(
+//   activateSlide,4000
+// )
