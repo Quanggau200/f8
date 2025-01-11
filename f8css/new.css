@@ -109,6 +109,7 @@
 }
 .infor_about
 {
+    flex: 1;
     padding:  0  32px 0 0;
 }
 .like,.option
